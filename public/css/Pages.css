@@ -1,0 +1,163 @@
+
+@font-face {
+    font-family: 'PT Sans';
+    src: url(/Font/PTSans-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: 'League Spartan';
+    src: url(/Font/PTSans-Regular.ttf);
+  }
+  
+
+  .Tete{
+      background-color: #F6B21B;
+  }
+
+.TitlePTSans{
+  
+    font-family :'PT Sans';
+    font-style: normal;
+font-weight: normal;
+font-size: 72px;
+line-height: 93px;
+text-align: center;
+letter-spacing: 0.135em;
+}
+
+.PTSans{
+    font-family :'PT Sans';
+}
+
+.PTSansAsre9ni{
+    font-family :'PT Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+    /* identical to box height */
+    
+    letter-spacing: 0.135em;
+}
+
+.Logo{
+    padding: 1% 0 0 3%;
+   
+}
+.Logo1{
+    width: 75px;
+    height: 30px;
+    margin-right: 5px ;
+    background: #222222;
+    border-radius: 0px 25px 0px 0px;
+}
+
+.Logo2{
+
+    width: 30px;
+height: 30px;
+
+border-radius: 15px;
+
+background: #222222;
+}
+
+.Compte{
+    text-align: center;
+    text-align: justify;
+    margin-top: 7%;
+    font-family :'PT Sans';
+    font-style: normal;
+    font-weight: normal;
+   
+    line-height: 31px;
+    /* identical to box height */
+    
+}
+
+.ImageCount{
+    margin-top: 5%;
+    border: 2px;
+    border-color: #222222;
+}
+
+.TitleMenu{
+
+    font-family: PT Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 31px;
+/* identical to box height */
+color:#222222;
+text-align: center;
+letter-spacing: 0.135em;
+}
+
+.TitleMenu:hover{
+    color:#F6B21B;
+}
+
+
+.CardWelcome{
+    width: 300px;
+height: 450px;
+background: #F6B21B;
+border: 2px solid #222222;
+box-sizing: border-box;
+border-radius: 5px;
+}
+
+.TitleCardWelcom{
+    margin:13px 0px 0px 18px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 47px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: 0.085em;
+    
+    color: #222;
+}
+
+.ImageCardWelcom{
+    margin-left: 31.5px;
+    width: 237px;
+height: 244px;
+}
+
+#titleSpecial{
+    margin:13px 0px 0px 18px;
+font-family: PT Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 47px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.085em;
+
+color: #222;
+}
+
+.Footerfin{
+    height: 80px; 
+    width: 100%;
+  
+}
+
+.cont{
+    
+    margin: 15% auto;
+    width: 1269px;
+}
+
+.footer{
+    width: 100%;
+   background-color:#F6B21B; 
+    height: 237px;
+}
