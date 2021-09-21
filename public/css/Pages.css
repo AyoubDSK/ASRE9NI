@@ -42,7 +42,13 @@ letter-spacing: 0.135em;
 
 .Logo{
     padding: 1% 0 0 3%;
+    color:#222;
    
+}
+
+.Logo:hover{ 
+    color:#fff;
+    text-decoration: none;
 }
 .Logo1{
     width: 75px;
@@ -96,8 +102,15 @@ letter-spacing: 0.135em;
 
 .TitleMenu:hover{
     color:#F6B21B;
+    text-decoration: none;
 }
 
+.PhaseHover:hover{ 
+
+    color:rgb(218, 218, 218);
+    text-decoration: none;
+
+}
 
 .CardWelcome{
     width: 300px;
@@ -161,3 +174,197 @@ color: #222;
    background-color:#F6B21B; 
     height: 237px;
 }
+
+main{
+    padding: 10px 5px ;
+    margin-bottom:10px;
+  
+}
+
+.headOver{
+   
+border: 2px solid #F6B21B;
+box-sizing: border-box;
+border-radius: 5px;
+padding:20px 0px;
+}
+
+.Filter{
+   
+min-height: 90vh;
+border: 2px solid #F6B21B;
+box-sizing: border-box;
+border-radius: 5px;
+}
+
+.Article{
+    padding: 0px 10px;
+    
+}
+
+.AntiSemantic{
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.135em;
+    
+    color: #2F2F2F;
+}
+
+.AntiSemanticBlod{
+    font-family: PT Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 26px;
+/* identical to box height */
+
+letter-spacing: 0.135em;
+
+color: #222222;
+}
+
+
+.navigation{
+    padding-left : 45px;
+    padding-top: 24px;
+}
+
+.itemNav{
+    color: #222222;
+    
+font-family: "PT Sans";
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 23px;
+letter-spacing: 0.135em;
+
+}
+
+.itemNav:hover{
+    color: #F6B21B;
+    text-decoration: none;
+}
+
+.TitleNav{
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 26px;
+    /* identical to box height */
+    
+   
+    
+    color: #222222;
+    
+}
+.TitleHerf:hover{
+    text-decoration: none;
+}
+.TitleNav:hover{
+    color: #F6B21B;
+    text-decoration: none;
+}
+
+.GeneralTitleNav{
+    
+font-family: "PT Sans";
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 31px;
+/* identical to box height */
+
+
+color: #222;
+
+}
+
+.BackgroundImage{
+    width: 200px;
+height: 180px;
+    background-color: #F6B21B;
+    padding: 15px 8px;
+    border-radius: 5px;
+
+}
+
+
+.ImageProduct{
+    width: 183px;
+height: 150px;
+left: calc(50% - 183px/2 - 320.5px);
+top: calc(50% - 150px/2 - 142px);
+background-color: #F6B21B;
+border-radius: 5px;
+}
+
+.ProductTitle{
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.135em;
+    
+    color: #222222;
+}
+
+.ProductTitle:hover{
+
+    text-decoration: none;
+    color:#F6B21B;
+
+}
+
+.ProductPrice{ 
+    margin: 15px;
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.135em;
+    
+    color: #F6B21B;
+}
+
+.ProductDetail{ 
+
+    margin:15px;
+    word-wrap: break-word;
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.135em;
+    
+    color: #222222;
+    
+}
+.CardProduct{   
+
+    margin: 25px;
+    width: auto;
+    border: 2px solid #222222;
+box-sizing: border-box;
+border-radius: 5px;
+
+padding:21px 18px;
+}
+
+
+.ProductCategory{
+  
+    margin-top:15px;
+    padding:20px;
+
+}
+
+
+
