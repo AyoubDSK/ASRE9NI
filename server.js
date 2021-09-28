@@ -27,6 +27,9 @@ res.render('./public/ProductVitrine');
 
 })
 
+app.get('/ProductTest',(req,res)=>{
+    res.render('./public/Product/Test');
+});
 
 app.listen(8080);
 

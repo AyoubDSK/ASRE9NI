@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+        <SchemaVersion>2.0</SchemaVersion>
+        <ProjectGuid>{1f112f00-c943-4fa2-be5b-16ca7c50c35c}</ProjectGuid>
+        <ProjectHome>.</ProjectHome>
+        <ProjectView>ShowAllFiles</ProjectView>
+        <StartupFile>server.js</StartupFile>
+        <WorkingDirectory>.</WorkingDirectory>
+        <OutputPath>.</OutputPath>
+        <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
+        <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">17.0</VisualStudioVersion>
+        <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+    <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+    <ItemGroup>
+        <Content Include="package-lock.json" />
+        <Content Include="package.json" />
+        <Content Include="server.js" />
+        <Content Include="public\css\Pages.css" />
+        <Content Include="public\javascripte\NavBar.js" />
+        <Content Include="public\javascripte\User.js" />
+        <Content Include="public\SemanticUI\semantic.css" />
+        <Content Include="public\SemanticUI\semantic.min.css" />
+        <Content Include="public\SemanticUI\package.json" />
+        <Content Include="public\SemanticUI\README.md" />
+        <Content Include="public\SemanticUI\package.js" />
+        <Content Include="public\SemanticUI\semantic.js" />
+        <Content Include="public\SemanticUI\semantic.min.js" />
+        <Content Include="public\css\Font\OFL.txt" />
+        <Content Include="public\css\Font\Cairo\OFL.txt" />
+        <Content Include="public\image\Product\test.png" />
+        <Content Include="public\image\StoreImages\3.png" />
+        <Content Include="public\image\StoreImages\5.png" />
+        <Content Include="public\image\StoreImages\7.png" />
+        <Content Include="public\image\StoreImages\9.png" />
+        <Content Include="public\image\User\Profile.png" />
+        <Content Include="public\SemanticUI\components\accordion.css" />
+        <Content Include="public\SemanticUI\components\accordion.min.css" />
+        <Content Include="public\SemanticUI\components\ad.css" />
+        <Content Include="public\SemanticUI\components\ad.min.css" />
+        <Content Include="public\SemanticUI\components\breadcrumb.css" />
+        <Content Include="public\SemanticUI\components\breadcrumb.min.css" />
+        <Content Include="public\SemanticUI\components\button.css" />
+        <Content Include="public\SemanticUI\components\button.min.css" />
+        <Content Include="public\SemanticUI\components\card.css" />
+        <Content Include="public\SemanticUI\components\card.min.css" />
+        <Content Include="public\SemanticUI\components\checkbox.css" />
+        <Content Include="public\SemanticUI\components\checkbox.min.css" />
+        <Content Include="public\SemanticUI\components\comment.css" />
+        <Content Include="public\SemanticUI\components\comment.min.css" />
+        <Content Include="public\SemanticUI\components\container.css" />
+        <Content Include="public\SemanticUI\components\container.min.css" />
+        <Content Include="public\SemanticUI\components\dimmer.css" />
+        <Content Include="public\SemanticUI\components\dimmer.min.css" />
+        <Content Include="public\SemanticUI\components\divider.css" />
+        <Content Include="public\SemanticUI\components\divider.min.css" />
+        <Content Include="public\SemanticUI\components\dropdown.css" />
+        <Content Include="public\SemanticUI\components\dropdown.min.css" />
+        <Content Include="public\SemanticUI\components\embed.css" />
+        <Content Include="public\SemanticUI\components\embed.min.css" />
+        <Content Include="public\SemanticUI\components\feed.css" />
+        <Content Include="public\SemanticUI\components\feed.min.css" />
+        <Content Include="public\SemanticUI\components\flag.css" />
+        <Content Include="public\SemanticUI\components\flag.min.css" />
+        <Content Include="public\SemanticUI\components\form.css" />
+        <Content Include="public\SemanticUI\components\form.min.css" />
+        <Content Include="public\SemanticUI\components\grid.css" />
+        <Content Include="public\SemanticUI\components\grid.min.css" />
+        <Content Include="public\SemanticUI\components\header.css" />
+        <Content Include="public\SemanticUI\components\header.min.css" />
+        <Content Include="public\SemanticUI\components\icon.css" />
+        <Content Include="public\SemanticUI\components\icon.min.css" />
+        <Content Include="public\SemanticUI\components\image.css" />
+        <Content Include="public\SemanticUI\components\image.min.css" />
+        <Content Include="public\SemanticUI\components\input.css" />
+        <Content Include="public\SemanticUI\components\input.min.css" />
+        <Content Include="public\SemanticUI\components\item.css" />
+        <Content Include="public\SemanticUI\components\item.min.css" />
+        <Content Include="public\SemanticUI\components\label.css" />
+        <Content Include="public\SemanticUI\components\label.min.css" />
+        <Content Include="public\SemanticUI\components\list.css" />
+        <Content Include="public\SemanticUI\components\list.min.css" />
+        <Content Include="public\SemanticUI\components\loader.css" />
+        <Content Include="public\SemanticUI\components\loader.min.css" />
+        <Content Include="public\SemanticUI\components\menu.css" />
+        <Content Include="public\SemanticUI\components\menu.min.css" />
+        <Content Include="public\SemanticUI\components\message.css" />
+        <Content Include="public\SemanticUI\components\message.min.css" />
+        <Content Include="public\SemanticUI\components\modal.css" />
+        <Content Include="public\SemanticUI\components\modal.min.css" />
+        <Content Include="public\SemanticUI\components\nag.css" />
+        <Content Include="public\SemanticUI\components\nag.min.css" />
+        <Content Include="public\SemanticUI\components\placeholder.css" />
+        <Content Include="public\SemanticUI\components\placeholder.min.css" />
+        <Content Include="public\SemanticUI\components\popup.css" />
+        <Content Include="public\SemanticUI\components\popup.min.css" />
+        <Content Include="public\SemanticUI\components\progress.css" />
+        <Content Include="public\SemanticUI\components\progress.min.css" />
+        <Content Include="public\SemanticUI\components\rail.css" />
+        <Content Include="public\SemanticUI\components\rail.min.css" />
+        <Content Include="public\SemanticUI\components\rating.css" />
+        <Content Include="public\SemanticUI\components\rating.min.css" />
+        <Content Include="public\SemanticUI\components\reset.css" />
+        <Content Include="public\SemanticUI\components\reset.min.css" />
+        <Content Include="public\SemanticUI\components\reveal.css" />
+        <Content Include="public\SemanticUI\components\reveal.min.css" />
+        <Content Include="public\SemanticUI\components\search.css" />
+        <Content Include="public\SemanticUI\components\search.min.css" />
+        <Content Include="public\SemanticUI\components\segment.css" />
+        <Content Include="public\SemanticUI\components\segment.min.css" />
+        <Content Include="public\SemanticUI\components\shape.css" />
+        <Content Include="public\SemanticUI\components\shape.min.css" />
+        <Content Include="public\SemanticUI\components\sidebar.css" />
+        <Content Include="public\SemanticUI\components\sidebar.min.css" />
+        <Content Include="public\SemanticUI\components\site.css" />
+        <Content Include="public\SemanticUI\components\site.min.css" />
+        <Content Include="public\SemanticUI\components\statistic.css" />
+        <Content Include="public\SemanticUI\components\statistic.min.css" />
+        <Content Include="public\SemanticUI\components\step.css" />
+        <Content Include="public\SemanticUI\components\step.min.css" />
+        <Content Include="public\SemanticUI\components\sticky.css" />
+        <Content Include="public\SemanticUI\components\sticky.min.css" />
+        <Content Include="public\SemanticUI\components\tab.css" />
+        <Content Include="public\SemanticUI\components\tab.min.css" />
+        <Content Include="public\SemanticUI\components\table.css" />
+        <Content Include="public\SemanticUI\components\table.min.css" />
+        <Content Include="public\SemanticUI\components\transition.css" />
+        <Content Include="public\SemanticUI\components\transition.min.css" />
+        <Content Include="public\SemanticUI\components\video.css" />
+        <Content Include="public\SemanticUI\components\video.min.css" />
+        <Content Include="public\SemanticUI\components\accordion.js" />
+        <Content Include="public\SemanticUI\components\accordion.min.js" />
+        <Content Include="public\SemanticUI\components\api.js" />
+        <Content Include="public\SemanticUI\components\api.min.js" />
+        <Content Include="public\SemanticUI\components\checkbox.js" />
+        <Content Include="public\SemanticUI\components\checkbox.min.js" />
+        <Content Include="public\SemanticUI\components\colorize.js" />
+        <Content Include="public\SemanticUI\components\colorize.min.js" />
+        <Content Include="public\SemanticUI\components\dimmer.js" />
+        <Content Include="public\SemanticUI\components\dimmer.min.js" />
+        <Content Include="public\SemanticUI\components\dropdown.js" />
+        <Content Include="public\SemanticUI\components\dropdown.min.js" />
+        <Content Include="public\SemanticUI\components\embed.js" />
+        <Content Include="public\SemanticUI\components\embed.min.js" />
+        <Content Include="public\SemanticUI\components\form.js" />
+        <Content Include="public\SemanticUI\components\form.min.js" />
+        <Content Include="public\SemanticUI\components\modal.js" />
+        <Content Include="public\SemanticUI\components\modal.min.js" />
+        <Content Include="public\SemanticUI\components\nag.js" />
+        <Content Include="public\SemanticUI\components\nag.min.js" />
+        <Content Include="public\SemanticUI\components\popup.js" />
+        <Content Include="public\SemanticUI\components\popup.min.js" />
+        <Content Include="public\SemanticUI\components\progress.js" />
+        <Content Include="public\SemanticUI\components\progress.min.js" />
+        <Content Include="public\SemanticUI\components\rating.js" />
+        <Content Include="public\SemanticUI\components\rating.min.js" />
+        <Content Include="public\SemanticUI\components\search.js" />
+        <Content Include="public\SemanticUI\components\search.min.js" />
+        <Content Include="public\SemanticUI\components\shape.js" />
+        <Content Include="public\SemanticUI\components\shape.min.js" />
+        <Content Include="public\SemanticUI\components\sidebar.js" />
+        <Content Include="public\SemanticUI\components\sidebar.min.js" />
+        <Content Include="public\SemanticUI\components\site.js" />
+        <Content Include="public\SemanticUI\components\site.min.js" />
+        <Content Include="public\SemanticUI\components\state.js" />
+        <Content Include="public\SemanticUI\components\state.min.js" />
+        <Content Include="public\SemanticUI\components\sticky.js" />
+        <Content Include="public\SemanticUI\components\sticky.min.js" />
+        <Content Include="public\SemanticUI\components\tab.js" />
+        <Content Include="public\SemanticUI\components\tab.min.js" />
+        <Content Include="public\SemanticUI\components\transition.js" />
+        <Content Include="public\SemanticUI\components\transition.min.js" />
+        <Content Include="public\SemanticUI\components\video.js" />
+        <Content Include="public\SemanticUI\components\video.min.js" />
+        <Content Include="public\SemanticUI\components\visibility.js" />
+        <Content Include="public\SemanticUI\components\visibility.min.js" />
+        <Content Include="public\SemanticUI\components\visit.js" />
+        <Content Include="public\SemanticUI\components\visit.min.js" />
+        <Content Include="public\SemanticUI\themes\default\assets\fonts\brand-icons.svg" />
+        <Content Include="public\SemanticUI\themes\default\assets\fonts\icons.svg" />
+        <Content Include="public\SemanticUI\themes\default\assets\fonts\outline-icons.svg" />
+        <Content Include="public\SemanticUI\themes\default\assets\images\flags.png" />
+        <Content Include="views\public\CardWelcome.ejs" />
+        <Content Include="views\public\Footer.ejs" />
+        <Content Include="views\public\Header.ejs" />
+        <Content Include="views\public\Home.ejs" />
+        <Content Include="views\public\Menu.ejs" />
+        <Content Include="views\public\ProductVitrine.ejs" />
+        <Content Include="views\public\Welcome.ejs" />
+        <Content Include="views\public\Product\ProductCard.ejs" />
+        <Content Include="views\public\Product\ProductDetail.ejs" />
+        <Content Include="views\public\Product\Test.ejs" />
+    </ItemGroup>
+    <ItemGroup>
+        <Folder Include="Database" />
+        <Folder Include="FromExistingCode1" />
+        <Folder Include="herokuweb" />
+        <Folder Include="public" />
+        <Folder Include="public\css" />
+        <Folder Include="public\css\Font" />
+        <Folder Include="public\css\Font\Cairo" />
+        <Folder Include="public\image" />
+        <Folder Include="public\image\Noir et Orange Simple Internet Logo" />
+        <Folder Include="public\image\Product" />
+        <Folder Include="public\image\StoreImages" />
+        <Folder Include="public\image\User" />
+        <Folder Include="public\javascripte" />
+        <Folder Include="public\SemanticUI" />
+        <Folder Include="public\SemanticUI\components" />
+        <Folder Include="public\SemanticUI\themes" />
+        <Folder Include="public\SemanticUI\themes\default" />
+        <Folder Include="public\SemanticUI\themes\default\assets" />
+        <Folder Include="public\SemanticUI\themes\default\assets\fonts" />
+        <Folder Include="public\SemanticUI\themes\default\assets\images" />
+        <Folder Include="views" />
+        <Folder Include="views\Admin" />
+        <Folder Include="views\public" />
+        <Folder Include="views\public\Product" />
+    </ItemGroup>
+    <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+    <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
+    <ProjectExtensions>
+        <VisualStudio>
+          <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+            <WebProjectProperties>
+              <UseIIS>False</UseIIS>
+              <AutoAssignPort>True</AutoAssignPort>
+              <DevelopmentServerPort>0</DevelopmentServerPort>
+              <DevelopmentServerVPath>/</DevelopmentServerVPath>
+              <IISUrl>http://localhost:48022/</IISUrl>
+              <NTLMAuthentication>False</NTLMAuthentication>
+              <UseCustomServer>True</UseCustomServer>
+              <CustomServerUrl>http://localhost:1337</CustomServerUrl>
+              <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+            </WebProjectProperties>
+          </FlavorProperties>
+          <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+            <WebProjectProperties>
+              <StartPageUrl>
+              </StartPageUrl>
+              <StartAction>CurrentPage</StartAction>
+              <AspNetDebugging>True</AspNetDebugging>
+              <SilverlightDebugging>False</SilverlightDebugging>
+              <NativeDebugging>False</NativeDebugging>
+              <SQLDebugging>False</SQLDebugging>
+              <ExternalProgram>
+              </ExternalProgram>
+              <StartExternalURL>
+              </StartExternalURL>
+              <StartCmdLineArguments>
+              </StartCmdLineArguments>
+              <StartWorkingDirectory>
+              </StartWorkingDirectory>
+              <EnableENC>False</EnableENC>
+              <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+            </WebProjectProperties>
+          </FlavorProperties>
+        </VisualStudio>
+    </ProjectExtensions>
+</Project>

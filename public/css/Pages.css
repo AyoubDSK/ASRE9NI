@@ -6,7 +6,7 @@
   
   @font-face {
     font-family: 'League Spartan';
-    src: url(/Font/PTSans-Regular.ttf);
+    src: url("/Font/league-spartan-master/webfonts/leaguespartan-bold.woff2");
   }
   
 
@@ -366,5 +366,97 @@ padding:21px 18px;
 
 }
 
+.CardProductDetail{
+    
+    
+    margin: 25px;
+
+    border: 2px solid #F6B21B;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding:21px 18px;
+
+}
+
+.ProductImageDetailCard{
+    margin: 30px;
+    width: 370px;
+height: 370px;
+padding:22px;
+background: #F6B21B;
+border-radius: 10px;
+}
+
+.ProductImageDetail{
+    width: 325px;
+height: 325px;
 
 
+border-radius: 10px;
+}
+
+
+.ProductTitleDetail{
+    margin: 30px 60px;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 47px;
+    letter-spacing: 0.135em;
+    
+    color: #222222;
+}
+
+.ProductPriceDetail{
+    margin :0px 60px;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+    letter-spacing: 0.135em;
+    
+    color: #F6B21B;
+    
+}
+
+
+.ProductDetailDetail{
+    margin:25px 75px;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+    letter-spacing: 0.135em;
+    
+    color: #444444;
+    
+}
+
+.ActionProduct{
+    margin:10% 9%;
+
+}
+
+.ButtonAction{
+    
+    background: #F6B21B;
+border-radius: 10px;
+font-family: 'PT Sans';
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 40px;
+letter-spacing: 0.135em;
+    width: 225px;
+    height: 75px;
+color: #222222;
+margin: 0px 2%;
+
+}
+
+.CaseButton{
+    padding: 0% 30%;
+}
