@@ -369,12 +369,21 @@ padding:21px 18px;
 .CardProductDetail{
     
     
-    margin: 25px;
+    margin: 25px ;
 
     border: 2px solid #F6B21B;
     box-sizing: border-box;
     border-radius: 5px;
     padding:21px 18px;
+
+}
+
+
+.CategoryProduct{
+
+    width:max-content;
+    float:left;
+    margin: 0px 10px;
 
 }
 

@@ -23,7 +23,10 @@ app.get('/', function(req, res){
 
 
 app.get('/Product', function(req,res){
-res.render('./public/ProductVitrine');
+
+    //mysql
+   // var 
+    res.render('./public/ProductVitrine');
 
 })
 
