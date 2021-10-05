@@ -1,20 +1,20 @@
 <div class=" col-lg-8 CardProductDetail ">
     <div class="row">
     <div class="col-lg-4 ProductImageDetailCard">
-        <img src="./image/Product/test.png" class="ProductImageDetail">
+        <img src="<%= Product.Image %>" class="ProductImageDetail">
     </div>
 
     <div class="col-lg-8 row">
 
         <div class="column ProductTitleDetail ">
-            title here (big title here ) (x big title here) .
+            <%= Product.Nom_Product %> 
         </div>
         <div class="column ProductPriceDetail">
-            88 000.55 $
+            <%= Product.Price %> $
         </div>
 
         <div class="column ProductDetailDetail">
-          describe describe describedescribedescribedescribe describe describe describe describe describe describe describe describe describe describe describe describe describe describe describe describe 
+            <%= Product.Describe_Product %> 
         </div>
 
 

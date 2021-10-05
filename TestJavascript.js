@@ -1,3 +1,11 @@
+
+function test(results){
+
+  console.log(results[0].number)
+
+}
+
+
 var mysql      = require('mysql');
 var connection = mysql.createConnection({
   host     : 'localhost',
@@ -9,13 +17,17 @@ var connection = mysql.createConnection({
 connection.connect();
 
 
-connection.query('select idProduct,Nom_Product,Price,Image,Describe_Product,P.idCategory,CatName,P.idBrand, BrandName from Product P join Brand B join Category C on P.idCategory= C.idCategory or P.idBrand=B.idBrand group by Nom_Product', function (error, results, fields) {
+connection.query(' select count(*) as number from Product', function (error, results, fields) {
     if (error) throw error;
   
-    console.log(results)
+    test(results);
 
+    let number=results[0].number;
 });
 
 
 
+
 connection.end();
+
+

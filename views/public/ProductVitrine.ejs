@@ -52,10 +52,54 @@
         </div>
 
         <div class=" ui col-lg-10  Article ">
-            <div class="Filter">
-               
-                <%- include("./Product/ProductCard") %> 
+            <div >
+                <div>
 
+                    <nav aria-label="...">
+                        <ul class="pagination pagination-sm">
+                            <% for(let i=0;i<Page;i++){ %> 
+
+                                <% if(Des==i){ %> 
+                                    <li class="page-item disabled">
+                                        <a class="page-link" href="/Product/Page=<%= i %>" tabindex="-1"><%=i %> </a>
+                                      </li>
+                                <% }else{ %> 
+                                    <li class="page-item"><a class="page-link" href="/Product/Page=<%= i %>"><%=i %> </a></li>
+                          
+                                    <% } %> 
+                             <% } %> 
+                        </ul>
+                    </nav>
+                </div>
+                <% if(Products){ %>
+                    <div class="Filter">
+                    <% for(let i=0; i<Products.length; i++){ %> 
+                       <div> <%- include("./Product/ProductCard",{Product:Products[i]}) %> </div> 
+                      <%  if(i==Products.length -1){ %> 
+                        <div>
+
+                            <nav aria-label="...">
+                                <ul class="pagination pagination-sm">
+                                    <% for(let i=0;i<Page;i++){ %> 
+        
+                                        <% if(Des==i){ %> 
+                                            <li class="page-item disabled">
+                                                <a class="page-link" href="/Product/Page=<%= i %>" tabindex="-1"><%=i %> </a>
+                                              </li>
+                                        <% }else{ %> 
+                                            <li class="page-item"><a class="page-link" href="/Product/Page=<%= i %>"><%=i %> </a></li>
+                                  
+                                            <% } %> 
+                                     <% } %> 
+                                </ul>
+                            </nav>
+                        </div>
+                    <% } %> 
+                    <% } %> 
+                    
+                    
+                   </div>
+                <% } %> 
             </div>
         </div>
 

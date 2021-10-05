@@ -190,8 +190,8 @@ padding:20px 0px;
 }
 
 .Filter{
-   
-min-height: 90vh;
+    
+   height: max-content;
 border: 2px solid #F6B21B;
 box-sizing: border-box;
 border-radius: 5px;
@@ -286,7 +286,7 @@ color: #222;
 
 .BackgroundImage{
     width: 200px;
-height: 180px;
+    height: 180px;
     background-color: #F6B21B;
     padding: 15px 8px;
     border-radius: 5px;
@@ -350,12 +350,11 @@ border-radius: 5px;
 .CardProduct{   
 
     margin: 25px;
-    width: auto;
     border: 2px solid #222222;
-box-sizing: border-box;
-border-radius: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
 
-padding:21px 18px;
+    padding:21px 18px;
 }
 
 
