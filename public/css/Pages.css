@@ -7,6 +7,7 @@
   @font-face {
     font-family: 'League Spartan';
     src: url("/Font/league-spartan-master/webfonts/leaguespartan-bold.woff2");
+   
   }
   
 
@@ -347,14 +348,13 @@ border-radius: 5px;
     color: #222222;
     
 }
-.CardProduct{   
-
-    margin: 25px;
-    border: 2px solid #222222;
+.CardProduct{  
+    padding : 10px 20px;  
+    height: max-content;
+ border: 2px solid #222222;
     box-sizing: border-box;
-    border-radius: 5px;
-
-    padding:21px 18px;
+   border-radius: 5px;
+   margin:20px;
 }
 
 
@@ -467,4 +467,11 @@ margin: 0px 2%;
 
 .CaseButton{
     padding: 0% 30%;
+}
+
+
+.StoreAsre9ni{
+    font-family: 'PT Sans';
+    font-size:xx-small;
+    color:transparent;
 }

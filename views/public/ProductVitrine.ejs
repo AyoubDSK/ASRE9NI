@@ -14,31 +14,31 @@
 
             <div class=" row ">
                     <div class="column">
-                        <a class="TitleHerf"><h4 class="row header TitleNav">Class Car </h4></a>
-                        <a class ="row itemNav">mercedes</a>
-                        <a class ="row itemNav">rolls-royce</a>
-                        <a class ="row itemNav">Bentley</a>
-                        <a class ="row itemNav">Porsche</a>
-                        <a class ="row itemNav">maserati</a>
+                        <a class="TitleHerf" href="/Product/Page=1/Category=Class Car" ><h4 class="row header TitleNav">Class Car </h4></a>
+                        <a class ="row itemNav" href="/Product/Page=1/Category=Class Car/Brand=Mercedes">Mercedes</a>
+                        <a class ="row itemNav" href="/Product/Page=1/Category=Class Car/Brand=Rolls Royce" >Rolls-Royce</a>
+                        <a class ="row itemNav" href="/Product/Page=1/Category=Class Car/Brand=Bentley" >Bentley</a>
+                        <a class ="row itemNav" href="/Product/Page=1/Category=Class Car/Brand=Porsche">Porsche</a>
+                        <a class ="row itemNav" href="/Product/Page=1/Category=Class Car/Brand=Maserati" >Maserati</a>
                     </div>
                  
             </div>
 
             <div class=" row ">
                 <div class="column">
-                    <a class="TitleHerf"><h4 class="row header TitleNav">Asre9ni Product </h4></a>
-                    <a class ="row itemNav">T-shirt</a>
-                    <a class ="row itemNav">Goodies</a>
-                    <a class ="row itemNav">Asre9ni Pack’s</a>
+                    <a class="TitleHerf" href="/Product/Page=1/Category=Asre9ni Product"><h4 class="row header TitleNav">Asre9ni Product </h4></a>
+                    <a class ="row itemNav"  href="/Product/Page=1/Category=Asre9ni Product/Brand=T-Shirt">T-Shirt</a>
+                    <a class ="row itemNav" href="/Product/Page=1/Category=Asre9ni Product/Brand=Goodies">Goodies</a>
+                    <a class ="row itemNav" href="/Product/Page=1/Category=Asre9ni Product/Brand=Asre9ni Pack's" >Asre9ni Pack’s</a>
                 </div>
             </div>
 
             <div class=" row ">
                 <div class="column">
-                    <a class="TitleHerf"> <h4 class="row header TitleNav">Propriety’s</h4></a>
-                    <a class ="row itemNav">House</a>
-                    <a class ="row itemNav">Hotel</a>
-                    <a class ="row itemNav">Lot’s</a>
+                    <a class="TitleHerf"  href="/Product/Page=1/Category=Propriety's"> <h4 class="row header TitleNav">Propriety’s</h4></a>
+                    <a class ="row  itemNav" href="/Product/Page=1/Category=Propriety's/Brand=House" >House</a>
+                    <a class ="row itemNav" href="/Product/Page=1/Category=Propriety's/Brand=Hotel" >Hotel</a>
+                    <a class ="row itemNav" href="/Product/Page=1/Category=Propriety's/Brand=Lot's" >Lot’s</a>
                 </div>
             </div>
 
@@ -74,7 +74,7 @@
                 <% if(Products){ %>
                     <div class="Filter">
                     <% for(let i=0; i<Products.length; i++){ %> 
-                       <div> <%- include("./Product/ProductCard",{Product:Products[i]}) %> </div> 
+                       <div class="row p-5 "> <%- include("./Product/ProductCard",{Product:Products[i]}) %> </div> 
                       <%  if(i==Products.length -1){ %> 
                         <div>
 
