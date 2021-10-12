@@ -1,0 +1,105 @@
+<%- include("HeaderAdmin")%>
+
+<div class="FromGeneral container">
+
+<div Class="Title">
+    <p >Add New Product</p>
+</div>
+
+<form class="Formulaire" method="post"> 
+
+
+    <div class="InfoProduct col-lg-12">
+        <div class="ProductPack">
+        <div class="col-lg-6 col-md-12 col-xs-12 field">
+            <p>Product Name</p>
+            <div class="ui icon input">
+                <input type="text" name="Nom_Product" placeholder="Product Name">
+              
+              </div>
+        </div>
+
+        <div class="col-lg-6 col-md-12 col-xs-12 field">
+            <p>Price</p>
+            <div class="ui right labeled input">
+                <label for="amount" class="ui label">$</label>
+                <input type="text" placeholder="Price" name="Price" id="Price">
+                <div class="ui basic label">.00</div>
+              </div>
+        </div>
+      
+    </div>
+        <div  class="col-lg-12 col-md-12 col-xs-12">
+            <div class="ui form">
+            <div class="field">
+              <p class="field SubTitle">Text</p>
+              <textarea class="form-control SubTitle" name="Describe_Product" ></textarea>
+            </div>
+           
+          </div>
+          </div>
+
+    </div>
+
+    <div class="col-md-12 col-xs-12">
+        <div class="ui">
+
+            <div class="col-lg-6 col-sm-12 col-xs-12">
+                <div class="field">
+                    <label>Category</label>
+                    <br>
+                    <select class="ui fluid dropdown" name="Category">
+                      <option value="">Category</option>
+                        <option value="Class Car">Class Car</option>
+                        <option value="Asre9ni Product">Asre9ni Product</option>
+                        <option value="Propriety’s">Propriety’s</option>
+              
+                    </select>
+                  </div>
+            </div>
+            <div class="col-lg-6 col-sm-12 col-xs-12">
+                <div class="field">
+                    <label>Brand</label>
+                    <br>
+                    <select class="ui fluid dropdown" name="Brand" id="brand">
+                      <option value="">Brand</option>
+                      <option value="rolls-royce">rolls-royce</option>
+                      <option value="mercedes">mercedes</option>
+                      <option value="Bentley">Bentley</option>
+                      <option value="Porsche">Porsche</option>
+                      <option value="maserati">maserati</option>
+                      <option value="T-shirt">T-shirt</option>
+                      <option value="Goodies">Goodies</option>
+                      <option value="Asre9ni Pack’s">Asre9ni Pack’s</option>
+                      <option value="House">House</option>
+                      <option value="Hotel">Hotel</option>
+                      <option value="Lot’s">Lot’s</option>
+                    </select>
+                  </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="ClassImage col-lg-12">
+        
+            <div class="ui form">
+                <div class="inline field SubTitle">
+                  <label>Last name</label>
+                  <input type="file" name="Image">
+                </div>
+              </div>
+      
+    </div>
+  
+    <div class="center">
+    <button type="submit" class="fluid huge ui blue button ">Submit</button>
+</div>
+</form>
+
+
+
+</div>
+
+

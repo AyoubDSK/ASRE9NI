@@ -1,0 +1,46 @@
+
+@font-face {
+    font-family: 'PT Sans';
+    src: url(/Font/PTSans-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: 'League Spartan';
+    src: url(/Font/league-spartan-master/webfonts/leaguespartan-bold.woff2);
+   
+  }
+  
+
+  .FromGeneral{
+      font-family: 'PT Sans', sans-serif;
+      font-size :large;
+   
+
+
+  }
+
+  .Title{
+      padding: 30px 10px;
+      font-family: 'League Spartan';
+      font-size: xx-large;
+      background-color: #F6B21B;
+  }
+
+  .Formulaire{
+      margin: 50px 10px;
+  }
+
+  .SubTitle{
+      font-family: 'PT Sans';
+      font-size :large;
+      color: #222;
+  }
+
+  .ClassImage{
+    margin: 50px 0px;
+  }
+
+.ProductPack{
+    padding: 50px 0px;
+}
+
